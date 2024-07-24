@@ -1,0 +1,66 @@
+<script setup>
+    import SideBar from '../components/sidebar.vue'
+    import NavBar from "../components/header.vue";
+</script>
+<template>
+    <SideBar></SideBar>
+    <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
+        <NavBar></NavBar>
+        <div class="container-fluid px-2 px-md-4">
+      <div class="page-header min-height-300 border-radius-xl mt-4" style="background-image: url('https://images.unsplash.com/photo-1531512073830-ba890ca4eba2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');">
+        <span class="mask  bg-gradient-primary  opacity-6"></span>
+      </div>
+      <div class="card card-body mx-3 mx-md-4 mt-n6">
+        <div class="row gx-4 mb-2">
+          <div class="col-auto">
+            <div class="avatar avatar-xl position-relative">
+              <img src="../assets/img/bruce-mars.jpg" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
+            </div>
+          </div>
+          <div class="col-auto my-auto">
+            <div class="h-100">
+              <h5 class="mb-1">
+                Richard Davis
+              </h5>
+              <p class="mb-0 font-weight-normal text-sm">
+                CEO / Co-Founder
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row">
+            <div class="col-12 col-xl-15">
+              <div class="card card-plain h-100">
+                <div class="card-header pb-0 p-3">
+                  <div class="row">
+                    <div class="col-md-8 d-flex align-items-center">
+                      <h6 class="mb-0">Information du Profil</h6>
+                    </div>
+                    <div class="col-md-4 text-end">
+                      <a href="javascript:;">
+                        <i class="fas fa-user-edit text-secondary text-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Profile"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body p-3">
+                  <p class="text-sm">
+                    Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality).
+                  </p>
+                  <hr class="horizontal gray-light my-4">
+                  <ul class="list-group">
+                    <li class="list-group-item border-0 ps-0 pt-0 text-sm"><strong class="text-dark">Nom de l'organisation: </strong> &nbsp; INSEED </li>
+                    <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">RIB: </strong> &nbsp; 123 1234 123</li>
+                    <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Email:</strong> &nbsp; alecthompson@mail.com</li>
+                    <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Addresse :</strong> &nbsp; Lomé</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</template>
