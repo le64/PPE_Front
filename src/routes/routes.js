@@ -12,6 +12,7 @@ import Profil from '../components/profil.vue'
 import AddRecensement from '../components/add_recensement.vue'
 import AddCatRecensement from '../components/addcatrecensement.vue'
 import AddAgent from '../components/addagent.vue'
+import CustomForm from '../components/custom_form.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
@@ -31,6 +32,7 @@ const router = createRouter({
     {path: '/addrecensement', component: AddRecensement, props: true},
     {path: '/addcatrecensement', component: AddCatRecensement, props: true},
     {path: '/addagent', component: AddAgent, props: true},
+    {path: '/customform', component: CustomForm, props: true},
   ],
 })
 

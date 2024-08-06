@@ -1,12 +1,12 @@
 <script setup>
-    import SideBar from '../components/sidebar.vue'
-    import NavBar from "../components/header.vue";
+import SideBar from '../components/sidebar.vue'
+import NavBar from "../components/header.vue";
 </script>
 <template>
-    <SideBar></SideBar>
-    <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
-        <NavBar></NavBar>
-        <div class="container-fluid py-4">
+  <SideBar></SideBar>
+  <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+    <NavBar></NavBar>
+    <div class="container-fluid py-4">
       <div class="row">
         <div class="col-12">
           <div class="card my-4">
@@ -25,10 +25,14 @@
                 <table class="table align-items-center mb-0">
                   <thead>
                     <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nom du Recensement</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Catégorie</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Etat</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Zone Cible</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nom du Recensement
+                      </th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Catégorie
+                      </th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Etat
+                      </th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Zone
+                        Cible</th>
                       <th class="text-secondary opacity-7"></th>
                     </tr>
                   </thead>
@@ -37,7 +41,8 @@
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../assets/img/team-2.jpg" class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
+                            <img src="../assets/img/team-2.jpg" class="avatar avatar-sm me-3 border-radius-lg"
+                              alt="user1">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
                             <h6 class="mb-0 text-sm">John Michael</h6>
@@ -56,20 +61,22 @@
                         <span class="text-secondary text-xs font-weight-bold">23/04/18</span>
                       </td>
                       <td class="align-middle">
-                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user" style="margin-right: 10px;">
-                            <i class="fas fa-edit"></i> <!-- icône d'édition -->
-                        </a>
-                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Delete user">
-                            <i class="fas fa-trash-alt"></i> <!-- icône de suppression -->
-                        </a>
-                    </td>
+                        <a class="btn btn-link text-dark text-gradient px-3 mb-0" href="javascript:;"><i
+                            class="material-icons text-sm me-2">delete</i></a>
+                            <a class="btn btn-link text-dark text-gradient px-3 mb-0" href="javascript:;"><i
+                              class="material-icons text-sm me-2">visibility</i></a>
+                        <a class="btn btn-link text-dark text-gradient px-3 mb-0" href="javascript:;"><i
+                            class="material-icons text-sm me-2">assignment</i></a>
+                        
+                      </td>
 
                     </tr>
                     <tr>
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../assets/img/team-3.jpg" class="avatar avatar-sm me-3 border-radius-lg" alt="user2">
+                            <img src="../assets/img/team-3.jpg" class="avatar avatar-sm me-3 border-radius-lg"
+                              alt="user2">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
                             <h6 class="mb-0 text-sm">Alexa Liras</h6>
@@ -88,19 +95,26 @@
                         <span class="text-secondary text-xs font-weight-bold">11/01/19</span>
                       </td>
                       <td class="align-middle">
-                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user" style="margin-right: 10px;">
-                            <i class="fas fa-edit"></i> <!-- icône d'édition -->
+                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip"
+                          data-original-title="Edit user" style="margin-right: 10px;">
+                          <i class="fas fa-edit"></i>
                         </a>
-                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Delete user">
-                            <i class="fas fa-trash-alt"></i> <!-- icône de suppression -->
+                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip"
+                          data-original-title="Delete user" style="margin-right: 10px;">
+                          <i class="fas fa-trash-alt"></i>
                         </a>
-                    </td>
+                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip"
+                          data-original-title="Edit form">
+                          <i class="fas fa-file-alt"></i>
+                        </a>
+                      </td>
                     </tr>
                     <tr>
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../assets/img/team-4.jpg" class="avatar avatar-sm me-3 border-radius-lg" alt="user3">
+                            <img src="../assets/img/team-4.jpg" class="avatar avatar-sm me-3 border-radius-lg"
+                              alt="user3">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
                             <h6 class="mb-0 text-sm">Laurent Perrier</h6>
@@ -119,19 +133,26 @@
                         <span class="text-secondary text-xs font-weight-bold">19/09/17</span>
                       </td>
                       <td class="align-middle">
-                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user" style="margin-right: 10px;">
-                            <i class="fas fa-edit"></i> <!-- icône d'édition -->
+                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip"
+                          data-original-title="Edit user" style="margin-right: 10px;">
+                          <i class="fas fa-edit"></i>
                         </a>
-                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Delete user">
-                            <i class="fas fa-trash-alt"></i> <!-- icône de suppression -->
+                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip"
+                          data-original-title="Delete user" style="margin-right: 10px;">
+                          <i class="fas fa-trash-alt"></i>
                         </a>
-                    </td>
+                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip"
+                          data-original-title="Edit form">
+                          <i class="fas fa-file-alt"></i>
+                        </a>
+                      </td>
                     </tr>
                     <tr>
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../assets/img/team-3.jpg" class="avatar avatar-sm me-3 border-radius-lg" alt="user4">
+                            <img src="../assets/img/team-3.jpg" class="avatar avatar-sm me-3 border-radius-lg"
+                              alt="user4">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
                             <h6 class="mb-0 text-sm">Michael Levi</h6>
@@ -150,13 +171,19 @@
                         <span class="text-secondary text-xs font-weight-bold">24/12/08</span>
                       </td>
                       <td class="align-middle">
-                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user" style="margin-right: 10px;">
-                            <i class="fas fa-edit"></i> <!-- icône d'édition -->
+                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip"
+                          data-original-title="Edit user" style="margin-right: 10px;">
+                          <i class="fas fa-edit"></i>
                         </a>
-                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Delete user">
-                            <i class="fas fa-trash-alt"></i> <!-- icône de suppression -->
+                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip"
+                          data-original-title="Delete user" style="margin-right: 10px;">
+                          <i class="fas fa-trash-alt"></i>
                         </a>
-                    </td>
+                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip"
+                          data-original-title="Edit form">
+                          <i class="fas fa-file-alt"></i>
+                        </a>
+                      </td>
                     </tr>
                   </tbody>
                 </table>
@@ -166,5 +193,5 @@
         </div>
       </div>
     </div>
-    </main>
+  </main>
 </template>
